@@ -1,0 +1,6 @@
+[16-07-16 00:00:54] INFO[JavaFX Application Thread-com.xyq.fs.util.Load.<clinit>(Load.java:38)-加载DLL文件成功C:\Users\xyq\AppData\Local\Temp\jnotify_64bit2088206171280642307.dll]
+[16-07-16 00:00:57] INFO[Thread-5-com.xyq.fs.file.monitor.FileDirMonitor.sample(FileDirMonitor.java:54)-实时监控程序开始运行...]
+[16-07-16 00:00:58] INFO[Thread-5-com.xyq.fs.file.monitor.FileDirMonitor.sample(FileDirMonitor.java:100)-实时监控程序退出...]
+[16-07-16 00:01:05] INFO[Thread-8-com.xyq.fs.file.monitor.FileDirMonitor.sample(FileDirMonitor.java:54)-实时监控程序开始运行...]
+[16-07-16 00:01:10] INFO[Thread-8-com.xyq.fs.file.monitor.FileDirMonitor.sample(FileDirMonitor.java:100)-实时监控程序退出...]
+[16-07-16 00:03:55] INFO[Timer-0-com.xyq.fs.dao.FsDaoImpl.indexSelfCheck(FsDaoImpl.java:270)-本次索引自检共删除:2条无效索引]

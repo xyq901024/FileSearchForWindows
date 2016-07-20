@@ -1,0 +1,11 @@
+﻿
+C:\Windows
+C:\temp
+C:\PerfLogs
+C:\$RECYCLE.BIN
+D:\$RECYCLE.BIN
+E:\$RECYCLE.BIN
+C:\ProgramData
+C:\Program Files (x86)
+C:\Program Files
+C:\Users\Public\
