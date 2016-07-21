@@ -13,6 +13,7 @@ import java.nio.file.Paths;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
@@ -143,7 +144,14 @@ public class ResultWindow extends JFrame implements ActionListener {
 
 		JButton jb = (JButton) e.getSource();
 		if (e.getActionCommand().equals("复制文件")) {
-			new MyFilesUtil().copeFile(jb.getName().substring(1));
+			try {
+				new MyFilesUtil().copeFile(jb.getName().substring(1));
+				JOptionPane.showMessageDialog(null, "复制文件成功");
+			} catch (Exception e2) {
+				JOptionPane.showMessageDialog(null, "复制文件失败");
+			}
+			
+			
 		} else if (e.getActionCommand().equals("文件目录")) {
 			try {
 				System.out.println(jb.getName().substring(1));
